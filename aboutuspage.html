@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lionel Messi</title>
+    <link rel="stylesheet" href="/CSS/aboutus/AboutUs.css">
+</head>
+</div>
+<body>
+    
+    <audio autoplay style='display:none' src="/audio/Acapella.mp3"></audio>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="/HomePage.html">D1<span>0S</span><sup><img class="logo-pic" src="https://iconape.com/wp-content/png_logo_vector/messi-logo.png" alt="logo-image"></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="open navigetion">
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="close navigetion">
+                <ul class="Primary-nav">
+                    <li class="current"><a href="/HomePage.html">Home</a></li>
+                    <li><a href="/StatPage.html">Stat</a></li>
+                    <li><a href="/Videos&More.html">video&amp;More</a></li>
+                </ul>
+                <ul class="secondary-nav">
+                    <li><a class="contact-us" href="/ContactUs.html">ContactUs</a></li>
+                    <li><a class="AboutUs-cta" href="/AboutUsPage.html">About Us</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="in-struction">
+        <h1>The page is under construction <img src="https://www.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_630/MTY4MTkwNDU4NDEwNDQ0NzAx/barcelona-433-graphic.webp" alt="construction image"></h1>
+    </div>
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+               nav = document.querySelector('nav')
+               mobileBtnExit = document.getElementById('mobile-exit');
+ 
+         mobileBtn.addEventListener('click', () => {
+             nav.classList.add('menu-btn');
+         })
+ 
+         mobileBtnExit.addEventListener('click', () => {
+             nav.classList.remove('menu-btn');
+         })   
+     </script>
+    
+</body>
+</html>
