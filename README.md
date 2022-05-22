@@ -1,2 +1,5 @@
 # Messi_page
-Html &amp; CSS page i build in VScode (Sass compiler)
+Title: Messi Static Website
+description: Html & CSS static page i build in VScode (Sass compiler)
+Author: Fasil Masfin
+Keywords: Html, CSS, Sass, VScode
